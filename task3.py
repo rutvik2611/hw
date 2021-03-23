@@ -76,7 +76,7 @@ def Small(a):
     return small
 
 
-print("Smallest element in list is: ", Small(a))
+print("Smallest elementss in wlist is: ", Small(a))
 
 #q5
 
