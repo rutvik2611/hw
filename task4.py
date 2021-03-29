@@ -112,3 +112,11 @@ print("Odd", list(odd))
 
 even = filter(lambda x: x % 2 == 0, x9) 
 print("Even",list(even))
+
+#q11
+
+x=filter(lambda y:y%2==0,range(1,11))
+y=list(x)
+
+square=map(lambda z:z**2, y )
+print(list(square))
