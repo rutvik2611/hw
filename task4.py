@@ -120,3 +120,18 @@ y=list(x)
 
 square=map(lambda z:z**2, y )
 print(list(square))
+
+#q12
+
+def fun():
+    n=int(input("Enter the value of Divident: "))
+    y=int(input("Enter the value of Divisor: "))
+    try:
+        x=n/y
+        return x
+    except:
+        print("Error dividing by zero")
+
+
+print(fun())
+
