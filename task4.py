@@ -61,3 +61,44 @@ j,z=input("no1"),input("no2")
 print(sum(j,z))
 
 #q7
+
+str1=input("string1")
+str2=input("string2")
+
+def longer(s1,s2):
+    l1,l2=len(s1),len(s2)
+    if l1>l2:
+        return(s1)
+    elif l1==l2:
+        return(s1 + "/n" + s2)
+    else:
+        return(s2)
+
+print(longer(str1,str2))
+
+#q8 tuples
+
+def tu():
+    a1 = range(1, 21)
+    k = []
+    for i in a1:
+        a = i * i
+        k.append(a)
+    return tuple(k)
+
+
+print(tu())
+
+#q9 show num
+
+def showNumbers(userNum):
+    x7 = range(0,  userNum + 1)
+    for i in x7:
+        if i % 2 == 0:
+            print(i, "EVEN")
+        else:
+            print(i, "ODD ")
+
+
+Maxnumber = int(input("enter number for odd even : "))
+showNumbers(Maxnumber)
