@@ -49,3 +49,15 @@ print("-".join(sortt))
 
 x3 = input("Word to be captalized:")
 print(x3.upper())
+
+#q6
+
+def sum(a, b):
+    a1 = int(a)
+    a2 = int(b)
+    total = a1 + a2
+    print(total)
+j,z=input("no1"),input("no2")
+print(sum(j,z))
+
+#q7
