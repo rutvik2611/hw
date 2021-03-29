@@ -147,3 +147,24 @@ print(y)
 n=int(input("Enter the value of n: "))
 x=filter(lambda x:x%3!=0 and x%7==0,range(1,n+1))
 print(list(x))
+
+
+#Q15
+
+def mul(l):
+    return l*l
+   
+
+L=[3,5,7,9]
+y=map(mul,L)
+print(list(y))
+
+#Q16
+
+def FUN2():
+    try:
+        return 1
+    finally:
+        return 2
+    R=FUN2()
+    print(R)
