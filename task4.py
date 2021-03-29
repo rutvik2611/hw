@@ -102,3 +102,13 @@ def showNumbers(userNum):
 
 Maxnumber = int(input("enter number for odd even : "))
 showNumbers(Maxnumber)
+
+#q10fiter
+
+x8 = range(1, 21)
+odd = filter(lambda x: x % 2 != 0, x8) 
+print("Odd", list(odd))
+
+
+even = filter(lambda x: x % 2 == 0, x9) 
+print("Even",list(even))
