@@ -5,5 +5,8 @@ try:
    x= i**2
    print(x)
 
-except SyntaxError as error:
+except TypeError as error:
     print("Syntax Error! Try again!")
+
+
+#q
