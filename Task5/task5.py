@@ -9,4 +9,4 @@ except TypeError as error:
     print("Syntax Error! Try again!")
 
 
-#q
+#q2 read file
